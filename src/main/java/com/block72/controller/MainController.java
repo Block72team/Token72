@@ -1,16 +1,18 @@
 package com.block72.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+
 
 /**
+ * Views
  * Created by Jiateng on 10/19/18.
  */
-@RestController
+@Controller
 public class MainController {
 
     @GetMapping("/")
     public String index() {
-        return "Greetings from Spring Boot!";
+        return "index";
     }
 }
