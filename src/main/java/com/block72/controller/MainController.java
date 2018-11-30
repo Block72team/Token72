@@ -13,6 +13,32 @@ public class MainController {
 
     @GetMapping("/")
     public String index() {
-        return "index";
+        return "homepage";
     }
+
+    @GetMapping("/contact")
+    public String contact() {
+        return "contactpage";
+    }
+
+    @GetMapping("/subscribe")
+    public String subscribe() {
+        return "subscribepage";
+    }
+
+    @GetMapping("/policy")
+    public String policy() {
+        return "privacypolicypage";
+    }
+
+    @GetMapping("/team")
+    public String team() {
+        return "team";
+    }
+
+    @GetMapping("/tofservice")
+    public String tofservice() {
+        return "tofservice";
+    }
+
 }

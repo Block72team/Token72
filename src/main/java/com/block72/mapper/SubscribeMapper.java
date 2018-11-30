@@ -7,5 +7,5 @@ import tk.mybatis.mapper.common.Mapper;
 /**
  * Created by Jiateng on 10/19/18.
  */
-public interface SubscriberMapper extends Mapper<Subscriber> {
+public interface SubscribeMapper extends Mapper<Subscriber> {
 }

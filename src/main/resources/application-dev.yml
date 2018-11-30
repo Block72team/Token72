@@ -2,13 +2,15 @@ server:
   host: http://127.0.0.1
   port: 8080
 
+
+
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
 druid:
-  dbUrl: jdbc:mysql://127.0.0.1:3306/token72?useUnicode=true&characterEncoding=utf-8
-  username: root
-  password:
+  dbUrl: jdbc:mysql://167.99.238.182:3306/token72?useUnicode=true&characterEncoding=utf-8
+  username: blockzone_rw
+  password: Blockzone2018
   driver-class-name: com.mysql.jdbc.Driver
   initialSize: 5
   minIdle: 5

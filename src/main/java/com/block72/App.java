@@ -11,8 +11,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @tk.mybatis.spring.annotation.MapperScan(basePackages = "com.block72.mapper")
 @SpringBootApplication
 public class App {
-
-
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
     }

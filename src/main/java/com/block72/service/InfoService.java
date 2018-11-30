@@ -1,11 +1,12 @@
 package com.block72.service;
 
+import com.block72.model.Contact;
 import com.block72.model.Subscriber;
 
 /**
  * Created by Jiateng on 11/1/18.
  */
-public interface SubscribeService {
+public interface InfoService {
 
     /**
      * Do subscription
@@ -32,4 +33,11 @@ public interface SubscribeService {
      * @return null if doesn't exist
      */
     Subscriber getSubscriberByEmail(String email);
+
+    /**
+     *
+     * @param contact
+     * @return null if fail
+     */
+    Contact insertContactInfo(Contact contact);
 }
